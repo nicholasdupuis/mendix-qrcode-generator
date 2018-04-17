@@ -1,0 +1,15 @@
+{
+  "name": "mdx-qrcode",
+  "version": "1.0.0",
+  "description": "Generate a QR Code with system IP address ",
+  "main": "index.js",
+  "scripts": {
+    "generate-qrcode": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ip": "^1.1.5",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
