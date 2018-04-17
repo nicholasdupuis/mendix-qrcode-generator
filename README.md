@@ -26,6 +26,12 @@ Forward port 3001 to your Mendix App's port
 To generate a QR code in your command line, run the following from the root of the repository.
 Ensure your app is running in your Windows VM.
 
+For an offline app:
+```
+npm run generate-qrcode-offline
+```
+
+For a non-offline app:
 ```
 npm run generate-qrcode
 ```
