@@ -2,11 +2,11 @@ const qrcode = require('qrcode-terminal');
 const ip = require('ip');
 
 // Gives an IP Address + port number and page
-const ipAddress = ip.address() + ':3001/index.html';
+const ipAddress = 'http://' + ip.address() + ':3001/';
 
 // Information for user
 console.log('Generating QR Code for address: ' + ipAddress);
-console.log('Ensure you are forwarding port 3001 to 8080 in your VM');
+console.log('Ensure you are forwarding port 3001 to the application\'s port in your VM');
 
 // This object will be turned into a QR code for the Mendix App
 const scannableObject = {
