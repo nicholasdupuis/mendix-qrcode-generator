@@ -20,7 +20,7 @@ console.log('Ensure you are forwarding port 3001 to the application\'s port in y
 // This object will be turned into a QR code for the Mendix App
 const scannableObject = {
   "url": ipAddress,
-  "offline": options.offline ? true: false
+  "offline": options.offline ? true : false
 };
 
 // Generate the QR code
