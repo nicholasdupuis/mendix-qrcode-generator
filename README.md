@@ -7,6 +7,7 @@ Clone the repository and run an npm install to get dependencies:
 
 ```
 git clone git@github.build.ge.com:212412062/mendix-qrcode-generator.git
+cd mendix-qrcode-generator
 npm install
 ```
 
