@@ -6,7 +6,7 @@ Generate Mendix QR codes to reach Mendix Apps in a Windows VM from MacOS
 Clone the repository and run an npm install to get dependencies:
 
 ```
-git clone git@github.build.ge.com:212412062/mendix-qrcode-generator.git
+git clone https://github.com/nicholasdupuis/mendix-qrcode-generator.git
 cd mendix-qrcode-generator
 npm install
 ```
