@@ -2,15 +2,12 @@ const qrcode = require('qrcode-terminal');
 const ip = require('ip');
 const commandLineArgs = require('command-line-args')
 
-// Defines available command line arguments
-const optionDefinitions = [
-  { name: 'offline', alias: 'o', type: Boolean },
-]
-
 // Parse out command line arguments using commandLineArgs library
-const options = commandLineArgs(optionDefinitions);
+const options = commandLineArgs([
+  { name: 'offline', alias: 'o', type: Boolean },
+]);
 
-// Gives an IP Address + port number and page
+// Gives the IP Address + port number of the application
 const ipAddress = 'http://' + ip.address() + ':3001/';
 
 // Information for user
